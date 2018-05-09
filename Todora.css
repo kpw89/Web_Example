@@ -1,0 +1,84 @@
+
+.page-header{
+ text-align: center;
+}
+.Grid{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    grid-auto-rows: minmax(100px,auto);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#titleTODORA{
+    color: purple;
+    font-family: "Bodoni MT Black";
+    font-size: 70px;
+}
+
+.List1{
+    background-color: #FF97CB;
+    border: solid;
+}
+
+.List2{
+    background-color: #8CD1E6;
+    border: solid;
+}
+
+.List3{
+    background-color: #FFA4FF;
+    border: solid;
+}
+
+.List4{
+    background-color: #8BFEA8;
+    border: solid;
+}
+
+.List5{
+    background-color: #FFFF84;
+    border: solid;
+}
+
+.List {
+    font-size: 40px;
+    font-family: "Agency FB";
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.listBtn {
+    text-align: center;
+
+}
+
+.listBtn input {
+    margin: 5px;
+}
+
+
+.deleteItem{
+    color: red;
+    float: right;
+    padding-right: 20px;
+}
+
+.deleteItem:hover{
+    color: black;
+    text-decoration: none;
+}
+
+input[type=button] {
+    padding:5px 15px;
+    background:#ccc;
+    border:solid;
+    cursor:pointer;
+    border-radius: 5px;
+    font-family: "Niagara Solid";
+    font-size: 22px;
+}
+
